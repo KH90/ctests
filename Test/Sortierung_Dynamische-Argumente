@@ -30,7 +30,7 @@ int* my_test(int num, ...)                                            // Start d
 		{                                                     //
 			if (sum[j] > sum[j + 1])                      //
 			{                                             //
-			temp = sum[j + 1];                            //
+				temp = sum[j + 1];                    //
 				sum[j + 1] = sum[j];                  //
 				sum[j] = temp;                        //
 			}                                             //
